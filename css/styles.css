@@ -88,3 +88,85 @@ header {
 .banderogoose-image {
   align-self: flex-end;
 }
+
+.goose-facts {
+  padding: 52px 0 72px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goose-title {
+  color: #1b1d1f;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100px;
+  margin: 16px 0;
+}
+
+.goose-description {
+  color: #1b1d1f;
+  width: 875px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.goose-facts-container {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.goose-fact-item {
+  width: 374px;
+}
+
+.goose-fact-title {
+  color: #1b1d1f;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 12px 0 32px 0;
+}
+
+.goose-fac-description {
+  color: #1b1d1f;
+  width: 280px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.victory-bgd {
+  width: 1170px;
+  background: linear-gradient(270deg, #c1e8ff 0%, #ffffff 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 0;
+  margin-bottom: 72px;
+}
+
+.victory-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.victory-title {
+  color: #1b1d1f;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100px;
+  margin: 16px 0;
+}
+
+.victory-description {
+  color: #1b1d1f;
+  width: 875px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
