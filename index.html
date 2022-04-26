@@ -102,18 +102,22 @@
             <label for="user-name" class="modal-form-name">Ім'я</label
             ><input
               type="text"
+              onfocus="this.value='' "
               class="modal-form-input"
               id="user-name"
               name="Ім'я"
+              required
             />
           </div>
           <div class="modal-form-field">
             <label for="user-email" class="modal-form-name">Email</label
             ><input
               type="email"
+              onfocus="this.value='' "
               class="modal-form-input"
               id="user-email"
               name="Email"
+              required
             />
           </div>
           <button class="modal-form-btn" id="launch-btn">Запустити гуся</button>
