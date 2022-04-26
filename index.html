@@ -34,7 +34,9 @@
               своїми подвигами, бороню Батьківщину та підтримую позитивний дух
               народу. Слава Україні!
             </p>
-            <button class="banderogoose-launch">Запустити гуся</button>
+            <button class="banderogoose-launch" id="open-form-modal-btn">
+              Запустити гуся
+            </button>
           </div>
           <img
             src="./img/gus.svg"
@@ -89,5 +91,45 @@
         </p>
       </div>
     </footer>
+    <div class="modal-bgd" id="form-modal">
+      <div class="modal-form-container">
+        <button class="close-btn">x</button>
+        <form action="#" class="modal-form" data-netlify="true" id="form">
+          <img src="./img/trezub.svg" alt="ukr logo" class="ukr-logo" />
+          <h4 class="modal-form-title">Поділися, будь ласка, поштою</h4>
+          <p class="modal-form-description">та запиши гуся до бандерозагону</p>
+          <div class="modal-form-field">
+            <label for="user-name" class="modal-form-name">Ім'я</label
+            ><input
+              type="text"
+              class="modal-form-input"
+              id="user-name"
+              name="Ім'я"
+            />
+          </div>
+          <div class="modal-form-field">
+            <label for="user-email" class="modal-form-name">Email</label
+            ><input
+              type="email"
+              class="modal-form-input"
+              id="user-email"
+              name="Email"
+            />
+          </div>
+          <button class="modal-form-btn" id="launch-btn">Запустити гуся</button>
+        </form>
+      </div>
+    </div>
+    <div class="modal-bgd" id="success-modal">
+      <form action="#" class="modal-form modal-form-container">
+        <button class="close-btn">x</button>
+        <img src="./img/trezub.svg" alt="ukr logo" class="ukr-logo" />
+        <h4 class="modal-form-title">Дякуємо, гусь успішно запущений</h4>
+        <p class="modal-form-description modal-descr">
+          Слава Україні! Героям Слава!
+        </p>
+      </form>
+    </div>
+    <script src="./scripts/form.js"></script>
   </body>
 </html>
